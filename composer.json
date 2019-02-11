@@ -1,6 +1,7 @@
 {
   "name": "dmonin/saltedge-php",
-  "description": "",
+  "description": "SaltEdge PHP Adapter",
+  "type": "library",
   "require": {
     "nesbot/carbon": "1.34.*",
     "vlucas/phpdotenv": "^3.3",
