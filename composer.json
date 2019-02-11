@@ -1,0 +1,22 @@
+{
+  "name": "dmonin/saltedge-php",
+  "description": "",
+  "require": {
+    "nesbot/carbon": "1.34.*",
+    "vlucas/phpdotenv": "^3.3",
+    "guzzlehttp/guzzle": "^6.3"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "SaltEdge\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "SaltEdgeAdapter\\Test\\": "test/src/"
+    }
+  }
+}
