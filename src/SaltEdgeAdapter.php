@@ -23,7 +23,7 @@ class SaltEdgeAdapter {
       ];
 
     try {
-      $res = $client->request($method, 'https://www.saltedge.com/api/v4/' . $path, [
+      $res = $client->request($method, 'https://www.saltedge.com/api/v5/' . $path, [
         'headers' => [
           'Accept' => 'application/json',
           'Content-type' => 'application/json',
